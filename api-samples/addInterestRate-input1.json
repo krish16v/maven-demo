@@ -1,0 +1,13 @@
+{
+        "validatingPeers": ["ALL"],
+        "proposal": {
+                "contractId": "addInterestRate",
+                "moduleId" : "com.gontusoftware.demos",
+                "parameters": {
+                        "indexName": "LIBOR",
+                        "period": "Monthly",
+                        "interestRate": "1.523",
+                        "validForDate": "2017-08-01"
+                }
+        }
+}
